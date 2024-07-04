@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Bank Corporate Login - Login</title>
+    <meta name="title" Content="US Bank Corporate Login - Login">
+    <meta name="description" content="Savings Supports">
+    <meta name="keywords" content="bank,e-banking,digital banking,digital bank,loan,deposit,fdr,dps">
+    <link rel="shortcut icon" href="https://savings.support/auth/login/assets/images/logoIcon/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://savings.support/auth/login/assets/images/logoIcon/logo.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="US Bank Corporate Login - Login">
+    <meta itemprop="name" content="US Bank Corporate Login - Login">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="https://savings.support/auth/login/assets/images/default.png">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Savings Supports">
+    <meta property="og:description" content="Savings Supports">
+    <meta property="og:image" content="https://savings.support/auth/login/assets/images/default.png">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="1180">
+    <meta property="og:image:height" content="600">
+    <meta property="og:url" content="https://savings.support/auth/login/user/login">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://savings.support/auth/login/assets/global/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://savings.support/auth/login/assets/global/css/all.min.css" rel="stylesheet">
+    <link href="https://savings.support/auth/login/assets/global/css/line-awesome.min.css" rel="stylesheet">
+    <link href="https://savings.support/auth/login/assets/templates/indigo_fusion/css/main.css" rel="stylesheet">
+    <link href="https://savings.support/auth/login/assets/templates/indigo_fusion/css/custom.css" rel="stylesheet">
+    <link href="https://savings.support/auth/login/assets/templates/indigo_fusion/css/color.php?color=00a6f7&amp;secondColor=14233c" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="dl">
+            <div class="dl__container">
+                <div class="dl__corner--top"></div>
+                <div class="dl__corner--bottom"></div>
+            </div>
+            <div class="dl__square"></div>
+        </div>
+    </div>
+
+    <div class="main-wrapper">
+        <section class="account-section bg_img" style="background-image: url('https://savings.support/auth/login/assets/images/frontend/login_bg/65ec0dfc814dc1709968892.jpg');">
+            <div class="account-section-left">
+                <div class="account-section-left-inner">
+                    <h4 class="title text-white mb-2">Welcome to US BANK Secure Login</h4>
+                    <p class="text-white">This Login is Only for Premium Corporate Clients</p>
+                    <a href="1.Home.html" class="btn btn-sm btn-outline--base mt-3"> <i class="la la-reply" aria-hidden="true"></i> Back to Home</a>
+                </div>
+            </div>
+            <div class="account-section-right">
+                <div class="top text-center mb-5">
+                    <a href="1.Home.html" class="account-logo">
+                        <img src="https://savings.support/auth/login/assets/images/logoIcon/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="middle">
+                    <form id="loginForm" class="verify-gcaptcha account-form">
+                        <div class="form-group">
+                            <label for="username" class="form-label required">Username or Email</label>
+                            <input type="text" name="username" id="username" class="form--control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" class="form-label required">Password</label>
+                            <input id="password" type="password" class="form--control" name="password" required>
+                        </div>
+                        <div class="form-group form-check d-flex justify-content-between">
+                            <div>
+                                <input class="form-check-input" type="checkbox" name="remember" id="remember">
+                                <label class="form-check-label" for="remember">Remember Me</label>
+                            </div>
+                            <a class="forgot-pass" href="12.Forgotpassword.html">Forgot password?</a>
+                        </div>
+                        <button type="submit" id="recaptcha" class="btn btn--base w-100">Login</button>
+                        <p id="error-message" style="color: red; display: none;">Invalid username or password!</p>
+                    </form>
+                    <p class="text-white mt-3">Don't have an account? <a href="7.signupdashbord.html" class="text--base">Create New</a></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://savings.support/auth/login/assets/global/js/jquery-3.6.0.min.js"></script>
+    <script src="https://savings.support/auth/login/assets/global/js/bootstrap.bundle.min.js"></script>
+    <script src="https://savings.support/auth/login/assets/global/js/jquery.validate.js"></script>
+    <script src="https://savings.support/auth/login/assets/global/js/slick.min.js"></script>
+    <script src="https://savings.support/auth/login/assets/templates/indigo_fusion/js/wow.min.js"></script>
+    <script src="https://savings.support/auth/login/assets/templates/indigo_fusion/js/main.js"></script>
+    <script>
+        "use strict";
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username === 'sathar369' && password === 'Jamesbond@369') {
+                alert('Login successful!');
+                // Redirect to the dashboard or another page
+                window.location.href = '13.dashboard.html';
+            } else {
+                var errorMessage = document.getElementById('error-message');
+                errorMessage.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+
+</html>
