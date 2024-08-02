@@ -75,12 +75,12 @@
                                 <input class="form-check-input" type="checkbox" name="remember" id="remember">
                                 <label class="form-check-label" for="remember">Remember Me</label>
                             </div>
-                            <a class="forgot-pass" href="12.Forgotpassword.html">Forgot password?</a>
+                            <a class="forgot-pass" href="forgotpassword.html">Forgot password?</a>
                         </div>
                         <button type="submit" id="recaptcha" class="btn btn--base w-100">Login</button>
                         <p id="error-message" style="color: red; display: none;">Invalid username or password!</p>
                     </form>
-                    <p class="text-white mt-3">Don't have an account? <a href="7.signupdashbord.html" class="text--base">Create New</a></p>
+                    <p class="text-white mt-3">Don't have an account? <a href="signupdashboard.html" class="text--base">Create New</a></p>
                 </div>
             </div>
         </section>
@@ -103,7 +103,7 @@
             if (username === 'sathar369' && password === 'Jamesbond@369') {
                 alert('Login successful!');
                 // Redirect to the dashboard or another page
-                window.location.href = '13.dashboard.html';
+                window.location.href = 'dashboard.html';
             } else {
                 var errorMessage = document.getElementById('error-message');
                 errorMessage.style.display = 'block';
