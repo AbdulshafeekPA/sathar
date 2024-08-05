@@ -1,0 +1,18 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 06 Aug 2024 01:44:45 at http://ussamabksj.com/dashboard.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -*https://ussamabksj.com/dashboard.html* +*https://ussamabksj.com/dashboard.html*
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F  -%F  -%l "en, *" http://ussamabksj.com/dashboard.html -O1 "C:\Users\USER1\Desktop\ususmanbj\us" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar -*https://ussamabksj.com/dashboard.html* +*https://ussamabksj.com/dashboard.html* )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:45:08	Error: 	"Not Found" (404) at link https://ussamabksj.com/6.Logindashbord.html (from https://ussamabksj.com/dashboard.html)
+01:45:11	Error: 	"Not Found" (404) at link https://ussamabksj.com/5.Contact.html (from https://ussamabksj.com/deposite.html)
+01:45:12	Error: 	"Not Found" (404) at link https://ussamabksj.com/24.transferbeneficieries.html (from https://ussamabksj.com/transferbeneficieries.html)
+01:45:14	Error: 	"Not Found" (404) at link https://ussamabksj.com/6.logindashboard.html (from https://ussamabksj.com/about.html)
+01:45:14	Error: 	"Not Found" (404) at link https://ussamabksj.com/forgotpassword.html (from https://ussamabksj.com/logindashboard.html)
+01:45:14	Error: 	"Not Found" (404) at link https://ussamabksj.com/19.myfdrlist.html (from https://ussamabksj.com/myfdrlist.html)
+01:45:15	Error: 	"Not Found" (404) at link https://ussamabksj.com/supportticket.html (from https://ussamabksj.com/more-support ticket-create-ticket.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 30 seconds : 89 links scanned, 81 files written (4831187 bytes overall) [2845747 bytes received at 94858 bytes/sec], 2788833 bytes transferred using HTTP compression in 65 files, ratio 24%, 11.2 requests per connection
+(7 errors, 0 warnings, 0 messages)
